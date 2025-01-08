@@ -11,4 +11,11 @@ title: Aknazar Janibek
     {% endfor %}
   </ul>
 
+  <h1>Notes</h1>
+  <ul class="posts">
+    {% for note in site.notes %}
+    <li><span>{{ note.date | date_to_string }}</span> &raquo; <a href="{{ note.url }}">{{ note.title }}</a></li>
+    {% endfor %}
+  </ul>
+
 </div>

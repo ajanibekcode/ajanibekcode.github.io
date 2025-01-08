@@ -1,0 +1,5 @@
+collections:
+  notes:
+    output: true
+  articles:
+    output: true
