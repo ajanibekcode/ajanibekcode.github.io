@@ -6,7 +6,7 @@ title: start of something new!
 {{ page.title }}
 ================
 
-<p class="meta">31 Dec 2024 - Almaty, KZ</p>
+<p class="meta">31 Dec 2024</p>
 
 As the year of 2024 comes to a close, I look at this year as another successful chapter in my life.
 This was a challenging year, having taken compilers, computer vision, and machine learning to name
