@@ -43,7 +43,7 @@ Part-of-Speech (POS) Tagging: identifying words belonging to a verb, adjective, 
 NER is Segmentation + Tagging
 
 We can think of NLP tasks as mapping input X's to output Y's,
-some examples may include: **input->mail**, **output->spam/not spam**
+some examples may include: **input**->mail, **output**->spam/not spam
 
 A lot of NLP problems can be written in the form of an optimization:
 <img src="../equations/nlp1.png" alt="Optimization" width="500">
