@@ -48,9 +48,10 @@ some examples may include: **input**->mail, **output**->spam/not spam
 A lot of NLP problems can be written in the form of an optimization:
 <img src="../equations/nlp1.png" alt="Optimization" width="500">
 
-where f is a scoring function that specifies how well a candidate output Y fits X
-theta is a vector of parameters (usually numbers) that specifies the model
-y hat is the predicted output from the model
+where 
+* f is a scoring function that specifies how well a candidate output Y fits X
+* theta is a vector of parameters (usually numbers) that specifies the model
+* y hat is the predicted output from the model
 
 
 
