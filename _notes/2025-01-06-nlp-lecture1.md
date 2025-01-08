@@ -1,6 +1,6 @@
 ---
 layout: note
-title: nlp intro lecture
+title: nlp introduction
 ---
 
 {{ page.title }}
