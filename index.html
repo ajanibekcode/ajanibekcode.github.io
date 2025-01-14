@@ -11,10 +11,17 @@ title: Aknazar Janibek
     {% endfor %}
   </ul>
 
+  <h1>paper reviews</h1>
+  <ul class="posts">
+    {% for review in site.reviews %}
+      <li> &raquo; <a href="{{ review.url }}">{{ review.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
   <h1>"lecture" notes</h1>
   <ul class="posts">
     {% for note in site.notes %}
-    <li><span>{{ note.date | date_to_string }}</span> &raquo; <a href="{{ note.url }}">{{ note.title }}</a></li>
+    <li>&raquo; <a href="{{ note.url }}">{{ note.title }}</a></li>
     {% endfor %}
   </ul>
 

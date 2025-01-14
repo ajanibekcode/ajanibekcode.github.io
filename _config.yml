@@ -1,6 +1,5 @@
 collections:
   notes:
     output: true
-    sort_by: date
-    order: ascending
-
+  reviews:
+    output: true
