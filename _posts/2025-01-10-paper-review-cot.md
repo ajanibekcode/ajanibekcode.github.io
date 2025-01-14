@@ -39,7 +39,7 @@ Properties that make this method attractive: <br>
 
 Important results
 
-The study finds that this prompting is an emergent ability, meaning it only becomes apparent at larger model scales (100 B parameters or more) and smaller models 
+The study finds that this prompting is an emergent ability, meaning it only becomes apparent at larger model scales (100B parameters or more) and smaller models 
 do not benefit. The prompting has larger gains for more complex problems seen by the **GSM8K** dataset and performance being negative or not existent with **SingleOp** dataset. <br>
 
 Why does CoT prompting work?
