@@ -21,3 +21,29 @@ We have seen a range of benefits when increasing the size of the Language Model,
 
 What is few-shot learning?
 A machine learning technique where a model is trained to learn and make predictions on a very small amount of labeled data.
+
+Prompt consists of triples: <input, chain-of-thought, output> <br>
+
+A chain-of-thought is a series of intermediate natural language reasoning steps that lead to the final output. A prompting only approach is
+important because it does not require a large training dataset and a single model checkpoint can perform many tasks without loss of generality.
+We can think of this prompting in similarity to how humans think when breaking down a problem with multiple layers: <br>
+
+*After Jane gives 2 flowers to her mom she has 10...then after she gives 3 to her dad she will have 7...so the answer is 7.*
+
+Properties that make this method attractive: <br>
+
+* Allows models to decompose multi-step problems into intermediate steps, which means additional computation can be allocated to problems that require more reasoning steps
+* Provides a window into how the model thinks, giving us an idea of how it arrived to a specific output from a specific input
+* Can be used for tasks such as math word problems, commonsense reasoning, and symbolic manipulation
+* Can be readily elicited into models simply by including examples with chain-of-thought prompting
+
+Important results
+
+The study finds that this prompting is an emergent ability, meaning it only becomes apparent at larger model scales (100 B parameters or more) and smaller models 
+do not benefit. The prompting has larger gains for more complex problems seen by the **GSM8K** dataset and performance being negative or not existent with **SingleOp** dataset. <br>
+
+Why does CoT prompting work?
+* Clarify complex problems: models reason through each step logically
+* Improve accuracy: errors reduced in larger models
+* Activate pretrained knowledge: sequential reasoning helps the model utilize its prior training
+
