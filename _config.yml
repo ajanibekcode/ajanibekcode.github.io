@@ -1,5 +1,6 @@
 collections:
   notes:
     output: true
-  articles:
-    output: true
+    sort_by: date
+    order: ascending
+

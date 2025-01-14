@@ -1,6 +1,7 @@
 ---
 layout: note
 title: nlp text normalization
+date: "2025-01-08"
 ---
 
 {{ page.title }}

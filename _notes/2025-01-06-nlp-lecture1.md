@@ -1,6 +1,7 @@
 ---
 layout: note
 title: nlp introduction
+date: "2025-01-06"
 ---
 
 {{ page.title }}
