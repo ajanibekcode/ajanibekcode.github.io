@@ -47,3 +47,5 @@ Why does CoT prompting work?
 * Improve accuracy: errors reduced in larger models
 * Activate pretrained knowledge: sequential reasoning helps the model utilize its prior training
 
+Question to explore: Is the neural network actually "reasoning"?
+
