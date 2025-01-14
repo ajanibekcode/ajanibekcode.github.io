@@ -17,4 +17,4 @@ can be another successful semester of helping students learn basic git practices
 and also hope to prepare them well for exams by conducting review sessions.
 
 In terms of classes, this will be the first time I am taking a Graduate-level course and I cannot wait to get started. The course is
-titled *Creating Software using LLMs* and I believe this will be a very useful class for me as I will gain more experience and understanding of Large Language Models, which is a vital skill with the ever-so shift in today's world with Artificial Intelligence.
+titled *Using LLMs to Create Software* and I believe this will be a very useful class for me as I will gain more experience and understanding of Large Language Models, which is a vital skill with the ever-so shift in today's world with Artificial Intelligence.
