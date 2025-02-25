@@ -17,9 +17,9 @@ The focus is on arithmetic, common sense, and symbolic reasoning tasks. Specific
 <h2>"Solution"</h2>
 We have seen a range of benefits when increasing the size of the Language Model, but unlocking reasoning ability can help us achieve high performance on tasks such as arithmetic, commonsense, and symbolic reasoning. The proposed method is motivated by two ideas: <br>
 
-1. Generating natural language rationales that lead to the final answer (prior work involves generating intermediate steps from scratch or finetuning a pretrained model)
+* Generating natural language rationales that lead to the final answer (prior work involves generating intermediate steps from scratch or finetuning a pretrained model)
 
-2. in-context few-shot learning via prompting where one can "prompt" a model with a few input-output exemplars demonstrating the task (has been successful with question-answering tasks)
+* in-context few-shot learning via prompting where one can "prompt" a model with a few input-output exemplars demonstrating the task (has been successful with question-answering tasks)
 
 What is few-shot learning?
 A machine learning technique where a model is trained to learn and make predictions on a very small amount of labeled data.
